@@ -1,0 +1,39 @@
+.button{
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background-color: #863A18;
+  color: white;
+}
+.button:hover{
+  background-color: #F0530D;
+}
+@keyframes spin {
+  from {transform:rotate(-360deg);}
+}
+
+@keyframes spin-again {
+  from {transform:rotate(360deg);}
+}
+
+.rotation{
+  -webkit-transition: -webkit-transform 2s;
+  transition: transform 2s;
+}
+.rotation:hover{
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.axis-spin{
+  
+  transition: width 0.5s, height 0.5s;
+  width: 37px;
+  height: 37px;
+}
+.axis-spin:hover{
+  width: 60px;
+  height: 60px;
+  
+  
+  transform-origin: 25% 25%;
+}
