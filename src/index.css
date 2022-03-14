@@ -1,98 +1,92 @@
 @import url(./vendor/fonts.css);
 @import url(./App.css);
-@import url(./blocks/header.css);
+@import url(./blocks/Header.css);
+@import url(./blocks/FirstOffer.css);
+@import url(./blocks/Location.css);
 
-.first-offer{
-  width: 100%;
-  position: relative;
-}
-
-.first-offer__container {
-  margin: 29px auto 0 auto;
-  display: flex;
-  width:fit-content;
-}
-
-.first-offer__info-container{
+.services{
   display: flex;
   flex-direction: column;
-  width: 560px;
-  margin: 98px 0 0 0;
+  margin-top: -220px;
+  z-index: 1;
+  width: 100%;
+  height: 1060px;
+  clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+  background-color: #0E324C;
 }
-
-.first-offer__title{
-  width: 560px;
-  margin:0;
+.services__title{
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 900;
-  font-size: 59px;
-  line-height: 71px;
-  color: #0E324C;
+  font-size: 50px;
+  line-height: 48px;
+  margin: 200px 0 20px 50px;
+  color: #FFFFFF;
+  transform: rotate(-9deg);
 }
 
-.first-offer__subtitle{
-  width: 475px;
-  margin: 23px 0 0 0;
+.services__slider{
+  width: 80%;
+  height: 500px;
+  transform: rotate(-9deg);
+}
+
+.services__slide{
+  margin-top: 20px;
+}
+
+.card{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85%;
+  background-color: white;
+}
+
+.card__img{
+  width: 100%;
+  height: 250px;
+}
+
+.card__text{
+  width: 250px;
+  height: 120px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 26px;
+  /* or 162% */
+
 
   color: #000000;
 }
 
-.first-offer__logo{
-  width: 561px;
-  height: 515px;
-}
-
-
-.first-offer__button{
-  margin: 61px 0 0 0;
-  width: 200px;
-  height: 65px;
-  
+.card__price{
   font-family: 'Raleway';
   font-style: normal;
-  font-weight: 900;
-  font-size: 21px;
-  line-height: 25px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  /* or 119% */
 
-  text-align: center;
-  letter-spacing: 1.05px;
 
-  color: #FFFFFF;
+  color: #863A18;
 }
 
-img#square-1{
-  position: absolute;
-  left: 24.5%;
-  top: 6px;
+.services__slider .swiper-button-next::after,
+.services__slider .swiper-button-prev::after{
+  font-size: 50px;
+  color: #0E324C;
 }
 
-img#square-2{
-  position: absolute;
-  left: 26.75%;
-  top: 431px;
+.services__slider .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: white;
 }
 
-img#square-3{
-  position: absolute;
-  right: 8.75%;
-  top: 444px;
-}
-
-img#square-4{
-  position: absolute;
-  right: 16%;
-  top: 20px;
-}
-
-img#circle-1{
-  position: absolute;
-  left: 48.125%;
-  top: 59.5px;
-}
 

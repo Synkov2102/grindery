@@ -1,3 +1,9 @@
+.body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
 .button{
   text-transform: uppercase;
   border: none;
@@ -16,24 +22,16 @@
   from {transform:rotate(360deg);}
 }
 
-.rotation{
+.rotation-animation{
   -webkit-transition: -webkit-transform 2s;
   transition: transform 2s;
 }
-.rotation:hover{
+.rotation-animation:hover{
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-.axis-spin{
-  
-  transition: width 0.5s, height 0.5s;
-  width: 37px;
-  height: 37px;
-}
-.axis-spin:hover{
+
+.zoom-animation:hover{
   width: 60px;
   height: 60px;
-  
-  
-  transform-origin: 25% 25%;
 }

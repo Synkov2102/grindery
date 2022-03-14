@@ -1,0 +1,144 @@
+.first-offer{
+    width: 100%;
+    position: relative;
+  }
+  
+  .first-offer__container {
+    margin: 29px auto 0 auto;
+    display: flex;
+    width:fit-content;
+  }
+  
+  .first-offer__info-container{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    margin: 98px 0 0 0;
+  }
+  
+  .first-offer__title{
+    width: 560px;
+    margin:0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 59px;
+    line-height: 71px;
+    color: #0E324C;
+  }
+  
+  .first-offer__subtitle{
+    width: 475px;
+    margin: 23px 0 0 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+  
+    color: #000000;
+  }
+  
+  .first-offer__logo{
+    width: 561px;
+    height: 515px;
+  }
+  
+  
+  .first-offer__button{
+    margin: 61px 0 0 0;
+    width: 200px;
+    height: 65px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+  
+    text-align: center;
+    letter-spacing: 1.05px;
+  
+    color: #FFFFFF;
+  }
+  
+  img#square-1{
+    position: absolute;
+    left: 24.5%;
+    top: 6px;
+  }
+  
+  img#square-2{
+    position: absolute;
+    left: 26.75%;
+    top: 431px;
+  }
+  
+  img#square-3{
+    position: absolute;
+    right: 8.75%;
+    top: 444px;
+  }
+  
+  img#square-4{
+    position: absolute;
+    right: 16%;
+    top: 20px;
+  }
+  
+  img#circle-1{
+    position: absolute;
+    left: 48.125%;
+    top: 59.5px;
+    width: 37px;
+    height: 37px;
+    transition: width 0.5s, height 0.5s;
+  }
+  
+  img#circle-1:hover{
+    width: 60px;
+    height: 60px;
+  }
+  
+  img#circle-2{
+    position: absolute;
+    right: 11.25%;
+    top: 16px;
+    width: 11px;
+    height: 11px;
+    transition: width 0.5s, height 0.5s;
+  }
+  
+  img#circle-2:hover{
+    width: 20px;
+    height: 20px;
+  }
+  
+  img#circle-3{
+    position: absolute;
+    right: 43.47%;
+    top: 497px;
+    width: 15px;
+    height: 15px;
+    transition: width 0.5s, height 0.5s;
+  }
+  
+  img#circle-3:hover{
+    width: 30px;
+    height: 30px;
+  }
+  
+  img#circle-4{
+    z-index: 2;
+    position: absolute;
+    left: 0.44%;
+    top: 329px;
+    width: 11px;
+    height: 11px;
+    transition: width 0.5s, height 0.5s;
+  }
+  
+  img#circle-4:hover{
+    width: 20px;
+    height: 20px;
+  }

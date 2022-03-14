@@ -1,31 +1,71 @@
 import Header from "./components/Header";
-import bigLogoPath from "./images/big-logo.png";
-import square1Path from "./images/Rectangle 1.svg";
-import square2Path from "./images/Rectangle 2.svg";
-import square3Path from "./images/Rectangle 3.svg";
-import square4Path from "./images/Rectangle 4.svg";
-import circle1Path from "./images/Ellipse 1.svg"
-import circle2Path from "./images/Ellipse 2.svg"
+import FirstOffer from "./components/FirstOffer";
+import Location from "./components/Location";
+
+import knifePath from "./images/knife.png"
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import { Pagination, Navigation } from "swiper";
+
+
 
 function App() {
   return (
     <>
     <Header />
-    <section className="first-offer">
-      <div className="first-offer__container">
-        <div className="first-offer__info-container">
-        <h1 className="first-offer__title">Наточим ваши ножи и ножницы!</h1>
-        <p className="first-offer__subtitle">Лучшая мастерская заточки в софрино-1</p>
-        <button className="first-offer__button button">связаться</button>
-      </div>
-      <img className="first-offer__logo" src={bigLogoPath}></img>
-      </div>
-      <img id='square-1' src={square1Path}className="rotation"></img>
-      <img id='square-2' src={square2Path}className="rotation"></img>
-      <img id='square-3' src={square3Path}className="rotation"></img>
-      <img id='square-4' src={square4Path}className="rotation"></img>
-      <img id='circle-1' src={circle1Path}className="axis-spin"></img>
-      <img id='circle-2' src={circle2Path}className="axis-spin"></img>
+    <FirstOffer />
+    <Location />
+    <section className="services">
+      <h2 className="services__title">Наши услуги</h2>
+      <Swiper
+        className="services__slider"
+        slidesPerView={3}
+        spaceBetween={60}
+        centeredSlides={true}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+      >
+        <SwiperSlide className="services__slide">
+          
+          <div className="card">
+            <img className="card__img" src={knifePath}></img>
+            <p className="card__text">Бла-бла-бла здесь очень важное описание</p>
+            <p className="card__price">3000 руб.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="services__slide"> 
+          <div className="card">
+            <img className="card__img" src={knifePath}></img>
+            <p className="card__text">Бла-бла-бла здесь очень важное описание</p>
+            <p className="card__price">3000 руб.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="services__slide">
+          <div className="card">
+            <img className="card__img" src={knifePath}></img>
+            <p className="card__text">Бла-бла-бла здесь очень важное описание</p>
+            <p className="card__price">3000 руб.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="services__slide">
+          <div className="card">
+            <img className="card__img" src={knifePath}></img>
+            <p className="card__text">Бла-бла-бла здесь очень важное описание</p>
+            <p className="card__price">3000 руб.</p>
+          </div>
+        </SwiperSlide>
+      </Swiper>
     </section>
     </>
   );
