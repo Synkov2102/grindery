@@ -3,90 +3,46 @@
 @import url(./blocks/Header.css);
 @import url(./blocks/FirstOffer.css);
 @import url(./blocks/Location.css);
+@import url(./blocks/card.css);
+@import url(./blocks/Services.css);
+@import url(./blocks/Call.css);
 
-.services{
-  display: flex;
-  flex-direction: column;
-  margin-top: -220px;
-  z-index: 1;
-  width: 100%;
-  height: 1060px;
-  clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
-  background-color: #0E324C;
+
+
+/*CSS*/
+.pulse {
+  display: block;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0.4);
+  animation: pulse 2s infinite;
 }
-.services__title{
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 50px;
-  line-height: 48px;
-  margin: 200px 0 20px 50px;
-  color: #FFFFFF;
-  transform: rotate(-9deg);
+.pulse:hover {
+  animation: none;
 }
 
-.services__slider{
-  width: 80%;
-  height: 500px;
-  transform: rotate(-9deg);
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 20px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
 }
-
-.services__slide{
-  margin-top: 20px;
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 20px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 20px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
 }
-
-.card{
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 85%;
-  background-color: white;
-}
-
-.card__img{
-  width: 100%;
-  height: 250px;
-}
-
-.card__text{
-  width: 250px;
-  height: 120px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* or 162% */
-
-
-  color: #000000;
-}
-
-.card__price{
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 19px;
-  /* or 119% */
-
-
-  color: #863A18;
-}
-
-.services__slider .swiper-button-next::after,
-.services__slider .swiper-button-prev::after{
-  font-size: 50px;
-  color: #0E324C;
-}
-
-.services__slider .swiper-pagination-bullet {
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  font-size: 14px;
-  background-color: white;
-}
-
-

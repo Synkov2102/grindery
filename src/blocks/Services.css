@@ -1,0 +1,105 @@
+.services{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-top: -220px;
+  z-index: 1;
+  width: 100%;
+  height: 1000px;
+  clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+  background-color: #0E324C;
+}  
+
+.services__title{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 48px;
+  margin: 200px 0 40px 50px;
+  color: #FFFFFF;
+  transform: rotate(-9deg);
+}
+
+.services__slider{
+  width: 90%;
+  height: 500px;
+  transform: rotate(-9deg);
+  overflow: visible !important; 
+}
+
+.services__slide{
+  margin-top: 20px;
+}
+
+.services__background-lines{
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+.services__slider .swiper-button-next::after,
+.services__slider .swiper-button-prev::after{
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.services__slider .swiper-slide{
+  height: 90%;
+}
+
+.services__slider .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: white;
+}
+
+.services__square-1{
+  position: absolute;
+  top: 207px;
+  right: 45.4%;
+  width: 60px;
+  height: 60px;
+}
+
+.services__square-2{
+  position: absolute;
+  top: 110px;
+  right: 9.6%;
+  width: 32px;
+  height: 32px;
+}
+
+.services__square-3{
+  position: absolute;
+  top: 950px;
+  left: 5%;
+  width: 30px;
+  height: 30px; 
+}
+
+@media (max-width: 1280px) {
+  .services{
+    height: 600px;
+    margin-top: -110px;
+  }
+
+  .services__title{
+    margin: 70px 0 30px 50px;
+    font-size: 40px;
+    line-height: 38px;
+    transform: rotate(-7deg); 
+  }
+
+  .services__slider{
+    transform: rotate(-7deg);
+    height: 380px;
+  }
+}
+
+
+
