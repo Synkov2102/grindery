@@ -25,15 +25,6 @@
     position: absolute;
     top: -10px;
   }
-  .location__subtitle{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    color: #000000;
-    width: 180px;
-  }
   
   .location__map{
     z-index: 2;
@@ -46,3 +37,14 @@
     border: none;
   }
   
+  @media (max-width: 1240px) {
+    .location__title{
+      font-size: 50px;
+      line-height: 70px;
+    }
+
+    .location__map{
+      width: 620px; 
+      height: 350px;
+    }
+  }

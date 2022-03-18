@@ -1,3 +1,4 @@
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,19 +16,29 @@ import square2Path from "../images/serv-square2.svg"
 import square3Path from "../images/serv-square3.svg"
 
 function Services() {
+  const [devWidth, setDevWidth] = React.useState(0)
+  
+  React.useEffect(()=>{
+    setDevWidth(window.screen.width)
+  },[])
+
+  window.onresize = () => {
+    setDevWidth(window.screen.width)
+  };
+  
   return (
     <section className="services">
       <h2 className="services__title">Наши услуги</h2>
       <Swiper
         className="services__slider"
-        slidesPerView={3}
+        slidesPerView={devWidth <=1024 ? 1 : 3}
         spaceBetween={0}
         centeredSlides={true}
         loop={true}
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        navigation={devWidth <=1024 ? false : true}
         modules={[Pagination, Navigation]}
       >
         <SwiperSlide className="services__slide">

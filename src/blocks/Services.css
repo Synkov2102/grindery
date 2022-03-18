@@ -101,5 +101,31 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .services__slider .swiper-button-next::after,
+  .services__slider .swiper-button-prev::after{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .services__slider .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+  }
+
+  .services__title{
+    margin: 70px 0 35px 100px;
+    font-size: 40px;
+    line-height: 38px;
+    transform: rotate(-7.5deg); 
+  }
+
+  .services__slider{
+    transform: rotate(-7.5deg);
+    height: 380px;
+  }
+}
+
 
 

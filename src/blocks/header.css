@@ -62,4 +62,33 @@
   height: 40px;
 }
 
+@media (max-width: 1240px) {
+  .header {
+    width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    width: 768px;
+  }
+  .header__phone {
+    margin-left: 22px;
+    font-size: 17px;
+    line-height: 20px; 
+  }
+  .header__link {
+    width: 90px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .header__button {
+    font-size: 12px;
+    line-height: 15px;
+    width: 148px;
+    height: 30px;
+  }
+}
+
 
