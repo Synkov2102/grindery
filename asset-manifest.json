@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/grindery/static/css/main.10029b39.css",
+    "main.js": "/grindery/static/js/main.d237add5.js",
+    "static/js/787.0ad96236.chunk.js": "/grindery/static/js/787.0ad96236.chunk.js",
+    "static/media/PlayfairDisplay-Black.ttf": "/grindery/static/media/PlayfairDisplay-Black.5421db7516b51825ebbf.ttf",
+    "static/media/ralewayblack.ttf": "/grindery/static/media/ralewayblack.76c58fbf2128b96d9f2f.ttf",
+    "static/media/ralewaymedium.ttf": "/grindery/static/media/ralewaymedium.2f18aa295dc99b3e68cb.ttf",
+    "static/media/ralewaybold.ttf": "/grindery/static/media/ralewaybold.54de3cd01cf210f7f942.ttf",
+    "static/media/ralewayextrabold.ttf": "/grindery/static/media/ralewayextrabold.ae8bbc9c519b219c167a.ttf",
+    "static/media/big-logo.png": "/grindery/static/media/big-logo.a960f5e88501b359799c.png",
+    "static/media/knife.png": "/grindery/static/media/knife.e371590a61e3bbb1ce08.png",
+    "static/media/lines-white.png": "/grindery/static/media/lines-white.19c8a1885fff0263586f.png",
+    "index.html": "/grindery/index.html",
+    "static/media/Ellipse 1.svg": "/grindery/static/media/Ellipse 1.54c663652e85b41e4e1908a891e954f1.svg",
+    "static/media/Rectangle 2.svg": "/grindery/static/media/Rectangle 2.560ed7d87de7d4e7808f17ad3f638887.svg",
+    "static/media/serv-square1.svg": "/grindery/static/media/serv-square1.b2a0db9a81c481ef3d922db498f2c084.svg",
+    "static/media/Rectangle 3.svg": "/grindery/static/media/Rectangle 3.ef629d1cf05a78342c6830b3cbc9e21f.svg",
+    "static/media/Ellipse 2.svg": "/grindery/static/media/Ellipse 2.1768e9f2ab63e3d0d1d7493db48b252c.svg",
+    "static/media/Rectangle 4.svg": "/grindery/static/media/Rectangle 4.9dcb7cf1d89b8799a2514c72f247ef1a.svg",
+    "static/media/serv-square2.svg": "/grindery/static/media/serv-square2.75cef4c59987d90af3cf2a9b8aa69482.svg",
+    "static/media/serv-square3.svg": "/grindery/static/media/serv-square3.dc3f998e601f037927d965a348ed9efa.svg",
+    "static/media/Rectangle 1.svg": "/grindery/static/media/Rectangle 1.909a109210470ebff098f695a58fd080.svg",
+    "main.10029b39.css.map": "/grindery/static/css/main.10029b39.css.map",
+    "main.d237add5.js.map": "/grindery/static/js/main.d237add5.js.map",
+    "787.0ad96236.chunk.js.map": "/grindery/static/js/787.0ad96236.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10029b39.css",
+    "static/js/main.d237add5.js"
+  ]
+}
