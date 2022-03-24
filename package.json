@@ -2,7 +2,7 @@
   "name": "grindery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nameaccount.github.io/grindery",
+  "homepage": "https://synkov2102.github.io/grindery",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
