@@ -6,18 +6,22 @@
   align-items: center;
 }
 
+.header__logo {
+  width: 93px;
+}
+
 .header__phone {
   margin-left: 32px;
   font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
 
-    text-align: center;
-    letter-spacing: 1.05px;
+  text-align: center;
+  letter-spacing: 1.05px;
 
-    color: #863A18;  
+  color: #863A18;  
 }
 
 .header__logo-container {
@@ -71,6 +75,7 @@
 @media (max-width: 1024px) {
   .header {
     width: 768px;
+    margin-bottom: 20px;
   }
   .header__phone {
     margin-left: 22px;
@@ -88,6 +93,27 @@
     line-height: 15px;
     width: 148px;
     height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+
+  .header__logo{
+    margin-left: 20px;
+  }
+
+  .header__logo-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .header__phone {
+    margin: 0 20px 0 0;
+    font-size: 17px;
+    line-height: 20px; 
   }
 }
 

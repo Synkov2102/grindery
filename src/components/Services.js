@@ -15,17 +15,8 @@ import square1Path from "../images/serv-square1.svg"
 import square2Path from "../images/serv-square2.svg"
 import square3Path from "../images/serv-square3.svg"
 
-function Services() {
-  const [devWidth, setDevWidth] = React.useState(0)
-  
-  React.useEffect(()=>{
-    setDevWidth(window.screen.width)
-  },[])
+function Services({devWidth}) {
 
-  window.onresize = () => {
-    setDevWidth(window.screen.width)
-  };
-  
   return (
     <section className="services">
       <h2 className="services__title">Наши услуги</h2>

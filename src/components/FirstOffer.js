@@ -6,7 +6,7 @@ import square4Path from "../images/Rectangle 4.svg";
 import circle1Path from "../images/Ellipse 1.svg"
 import circle2Path from "../images/Ellipse 2.svg"
 
-function FirstOffer() {
+function FirstOffer({vision}) {
     return (
       <section className="first-offer">
         <div className="first-offer__container">

@@ -48,3 +48,21 @@
       height: 350px;
     }
   }
+
+  @media (max-width: 768px) {
+    .location__background-lines{
+      width: 100%;
+    }
+
+    .location__map{
+      width: 80vw; 
+      height: 50vw;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .location__title{
+      font-size: 35px;
+      line-height: 42px;
+    }
+  }

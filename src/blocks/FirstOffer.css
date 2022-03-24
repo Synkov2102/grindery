@@ -188,16 +188,83 @@ img#circle-4:hover{
     width: 350px;
   }
   img#square-1{
-    top: 24px;
-    left: 12.5%;
+    opacity: 0;
   }
 
   img#square-2{
-    top: 380px;
-    left: 42%;
+    opacity: 0;
   }
 
   img#square-3{
-    top: 320px;
+    opacity: 0;
+  }
+
+  img#square-4{
+    opacity: 0;
+  }
+
+  img#circle-1{
+    opacity: 0;
+  }
+
+  img#circle-2{
+    opacity: 0;
+  }
+
+  img#circle-3{
+    opacity: 0;
+  }
+
+  img#circle-4{
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .first-offer__container {
+    flex-direction: column-reverse;
+    margin: 0 auto 0 auto;
+  }
+
+  .first-offer__info-container{
+    margin: 0;
+    width: 300px;
+  }
+
+  .first-offer__title{
+    width: 350px;
+  }
+  
+  .first-offer__subtitle{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .first-offer__logo{
+    width: 350px;
+  }
+
+  .first-offer__button{
+    width: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  
+  .first-offer__title{
+    width: 350px;
+  }
+  
+  .first-offer__subtitle{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .first-offer__logo{
+    width: 350px;
+  }
+
+  .first-offer__button{
+    width: 350px;
   }
 }

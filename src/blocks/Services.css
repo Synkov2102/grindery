@@ -127,5 +127,27 @@
   }
 }
 
+@media (max-width: 768px) {
+  .services__title{
+    transform: rotate(-11deg); 
+  }
+
+  .services__slider{
+    width: 100vw;
+    transform: rotate(-11deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .services__title{
+    margin: 70px 0 30px 30px;
+    transform: rotate(-19deg); 
+  }
+
+  .services__slider{
+    width: 100vw;
+    transform: rotate(-19deg);
+  }
+}
 
 
